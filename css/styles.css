@@ -6,19 +6,42 @@
     border: solid 1px;
 }
 
-#chat {
+.mainDisplay {
     text-align: center;
-    height: 100%;
 }
 
-#messageInput {
-    position: absolute;
+#master {
+    float: none;
+    display: inline-block;
+}
+
+#questioner {
+    float: none;
+    display: inline-block;
+}
+
+#chat {
+    text-align: center;
+    height: 400px;
+}
+
+#msgInput {
+    position: static;
     width: auto;
+}
+
+#msgBox {
+    height: 80%;
 }
 
 #players {
     border: solid 1px;
 }
+
+#separator {
+    height: 60px;
+}
+
 
 #chatC {
     border: solid 1px;
