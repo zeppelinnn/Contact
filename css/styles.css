@@ -1,0 +1,25 @@
+.bar {
+    padding-left: 20px;
+}
+
+.box {
+    border: solid 1px;
+}
+
+#chat {
+    text-align: center;
+    height: 100%;
+}
+
+#messageInput {
+    position: absolute;
+    width: auto;
+}
+
+#players {
+    border: solid 1px;
+}
+
+#chatC {
+    border: solid 1px;
+}

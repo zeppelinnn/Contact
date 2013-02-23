@@ -11,7 +11,17 @@ function Game(){
 	this.currentQuestion = undefined;
 }
 
-Game.prototype.update = function (){}
+Game.prototype.update = function (){
+
+	switch(this.state) {
+
+		'pregame':
+			break;
+		'lobby':
+			console.log("in da lobby");
+	}
+
+}
 Game.prototype.draw = function () {}
 Game.prototype.addPlayer = function () {}
 Game.prototype.removePlayer = function () {}
