@@ -1,0 +1,51 @@
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background-color: #252525;
+}
+
+#content {
+	background-color: #FFFFFF;
+	height: 1024px;
+	width: 768px; 
+
+}
+
+#topbar{
+	z-index: 10000000;
+}
+
+#menuToggler{
+	  -webkit-transition: all 200ms linear;
+     -moz-transition: all 200ms linear;
+     -o-transition: all 200ms linear;
+     -ms-transition: all 200ms linear;
+     transition: all 200ms linear;
+}
+
+.textglow {
+	text-shadow: 0 3px 20px #eeeeFF;
+	color: #ffffff;
+}
+
+nav {
+	z-index: 100000;
+}
+
+#sideMenu .subheader{
+		text-shadow: 0 3px 20px #eeeeFF;
+	color: #ffffff;
+}
+
+#sideMenu {
+	z-index: 1000;
+}
+
+
+
+

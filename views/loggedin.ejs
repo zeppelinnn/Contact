@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>  Contact | Homepage</title>
+
+    <!-- JQuery -->
+    <script src="../public/javascripts/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap/bootstrap.min.css">
+    <script src='../public/javascripts/bootstrap/bootstrap.min.js'> </script>
+
+
+    <script src="../public/javascripts/client.js"></script>
+    <script src='../public/javascripts/transit/jquery.transit.js'> </script>
+
+    <style>
+        #content{
+            padding:20px 10px 10px 20px;
+            height
+        }
+        .thumbnails {
+            text-align: center;
+        }
+
+    </style>
+
+
+
+</head>
+
+
+
+
+<body>
+
+<div class="navbar navbar-static-top navbar-inverse">
+  <div class="navbar-inner">
+    <a class="brand" href="#" id='menuToggler'> CONTACT </a>
+    <ul class="nav" id='topMenu'>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#"> Tutorial </a></li>
+      <li><a href="#"> Settings </a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class='row'>
+
+    <div class='span2' id='sideMenu'>
+        <ul class="nav nav-tabs nav-stacked">
+          <li> <a> <h5 class='subheader'> PLAY <h5> </a></li>
+          <li> <a> <h5 class='subheader'> FRIENDS <h5> </a></li>
+          <li> <a> <h5 class='subheader'> SETTINGS <h5> </a></li>
+          <li> <a href='/logout'> <h7 class='subheader'> LOGOUT <h7> </a></li>
+
+
+        </ul>
+    </div>
+
+
+    <div class='span10' id='content' 
+         style="background-color:#f9f9f9; height:500px;">
+
+
+
+<div class="hero-unit">
+0.52
+
+
+
+<div class="progress progress-striped active">
+  <div class="bar" style="width: 40%;"></div>
+</div>
+<div class='row'>
+<div class='span5'>
+
+  <h1>N A G _ _ _ </h1>  </br>
+  <p>
+    <a class="btn btn-primary btn-large">
+      Give Up
+    </a>
+  </p>
+</div>
+
+
+<div class='span3'>
+
+
+</div>
+
+  <textarea rows="3"></textarea>
+
+
+
+</div> 
+</div>
+
+
+
+
+
+
+         
+
+        <div>
+    </div>
+</div>
+
+
+
+  
+<!-- End Inner Content -->
+
+
+  <script>
+
+    var menuHidden = false;
+
+    $('#menuToggler').on('click', function(){
+        toggleMenu();
+    })
+
+
+    function hideMenu(){
+        $('#sideMenu').transition({ x: '-130px',  scale: 1, opacity: 0});
+        $('#topMenu').transition({ y: '-40px'});
+        $('#content').transition({ x: '-110px', scale: 1, opacity: 1});
+        $('#menuToggler').addClass('textglow');
+        menuHidden = true;
+    }
+
+    function showMenu(){
+        $('#content').transition({ x: '0px', scale: 1, opacity:0.5 });
+        $('#sideMenu').transition({ x: '0px',scale:1, opacity:1 }); 
+        $('#topMenu').transition({ y: '0px'});
+        $('#menuToggler').removeClass('textglow');
+        menuHidden = false;
+    }
+
+    function toggleMenu(){
+        if ( menuHidden ){
+            showMenu();
+        }
+        else {
+            hideMenu();
+        }
+    }
+
+
+  </script>
+
+  
+</body>
+</html>
