@@ -1,0 +1,48 @@
+.bar {
+    padding-left: 20px;
+}
+
+.box {
+    border: solid 1px;
+}
+
+.mainDisplay {
+    text-align: center;
+}
+
+#master {
+    float: none;
+    display: inline-block;
+}
+
+#questioner {
+    float: none;
+    display: inline-block;
+}
+
+#chat {
+    text-align: center;
+    height: 400px;
+}
+
+#msgInput {
+    position: static;
+    width: auto;
+}
+
+#msgBox {
+    height: 80%;
+}
+
+#players {
+    border: solid 1px;
+}
+
+#separator {
+    height: 60px;
+}
+
+
+#chatC {
+    border: solid 1px;
+}
